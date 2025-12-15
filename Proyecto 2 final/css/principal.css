@@ -1,0 +1,65 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('https://st.depositphotos.com/1000128/2158/i/450/depositphotos_21581271-stock-photo-stethoscope-on-laptop-keyboard.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.main-container {
+    background: rgba(255, 255, 255, 0.9);
+    margin: 50px auto;
+    padding: 30px;
+    border-radius: 10px;
+    width: 80%;
+    max-width: 900px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.3);
+    text-align: center;
+}
+
+.menu-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.menu-box {
+    background-color: #2e7d32;
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    transition: background 0.3s;
+}
+
+    .menu-box:hover {
+        background-color: #1b5e20;
+    }
+
+.volver-inicio {
+    margin-top: 30px;
+}
+
+.nombre-label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+    color: #333;
+}
+
+.menu-title {
+    font-size: 22px; 
+    font-weight: bold; 
+    color: #000000; 
+    margin-bottom: 8px; 
+}
+
+.menu-desc {
+    font-size: 14px; 
+    color: #333333; 
+}

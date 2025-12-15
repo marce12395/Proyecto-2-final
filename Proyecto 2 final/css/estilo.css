@@ -1,0 +1,70 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('https://st.depositphotos.com/1000128/2158/i/450/depositphotos_21581271-stock-photo-stethoscope-on-laptop-keyboard.jpg'); /* Ajusta la ruta */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.login-box {
+    width: 380px;
+    margin: 100px auto;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 6px 12px rgba(0,0,0,0.3);
+    text-align: center;
+    background: rgba(255, 255, 255, 0.9);
+}
+
+
+    .login-box h2 {
+        margin-bottom: 20px;
+        color: #333;
+    }
+
+  
+    .login-box label {
+        display: block;
+        margin-top: 12px;
+        text-align: left;
+        font-weight: bold;
+        color: #444;
+    }
+
+  
+    .login-box input[type="text"],
+    .login-box input[type="password"],
+    .login-box input[type="email"],
+    .login-box .aspNetButton {
+        margin-top: 8px;
+        width: 100%;
+        padding: 8px;
+        border-radius: 5px;
+        border: 1px solid #aaa;
+        box-sizing: border-box;
+    }
+
+.aspNetButton {
+    background-color: #0078D7;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 15px;
+    transition: background-color 0.3s ease;
+}
+
+    .aspNetButton:hover {
+        background-color: #005a9e;
+    }
+
+
+.aspNetLabel {
+    display: block;
+    margin-top: 20px;
+    font-size: 14px;
+    color: red;
+}
